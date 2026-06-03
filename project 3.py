@@ -94,33 +94,33 @@ while True:
                     print("Student information updated successfully!")
 
             if not found:
-...                 print("Student not found.")
-... 
-...         
-...         case 4:
-...             sid = int(input("\nEnter Student ID to delete: "))
-... 
-...             found = False
-... 
-...             for s in students:
-...                 if s["id"] == sid:
-...                     students.remove(s)
-...                     found = True
-...                     print("Student deleted successfully!")
-...                     break
-... 
-...             if not found:
-...                 print("Student not found.")
-... 
-...         
-...         case 5:
-...             print("\nSubjects Offered:")
-...             for subject in all_subjects:
-...                 print(subject)
-... 
-...         
-...         case 6:
-...             print("\nExiting program...")
+               print("Student not found.")
+
+        
+        case 4:
+             sid = int(input("\nEnter Student ID to delete: "))
+
+            found = False
+
+            for s in students:
+               if s["id"] == sid:
+                    students.remove(s)
+                     found = True
+                     print("Student deleted successfully!")
+                    break
+
+           if not found:
+                 print("Student not found.")
+
+        
+        case 5:
+            print("\nSubjects Offered:")
+             for subject in all_subjects:
+                 print(subject)
+
+         
+        case 6:
+            print("\nExiting program...")
 ...             break
 ... 
 ...         
