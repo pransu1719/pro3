@@ -121,7 +121,6 @@ while True:
          
         case 6:
             print("\nExiting program...")
-...             break
-... 
-...         
-...         case _:
+            break 
+       
+        case _:
