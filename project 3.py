@@ -98,24 +98,22 @@ while True:
 
         
         case 4:
-             sid = int(input("\nEnter Student ID to delete: "))
-
+            sid = int(input("\nEnter Student ID to delete: "))
             found = False
-
             for s in students:
                if s["id"] == sid:
                     students.remove(s)
-                     found = True
-                     print("Student deleted successfully!")
+                    found = True
+                    print("Student deleted successfully!")
                     break
 
-           if not found:
+            if not found:
                  print("Student not found.")
 
         
         case 5:
             print("\nSubjects Offered:")
-             for subject in all_subjects:
+            for subject in all_subjects:
                  print(subject)
 
          
@@ -123,4 +121,4 @@ while True:
             print("\nExiting program...")
             break 
        
-        case _:
+        case _:print("invalid choice")
